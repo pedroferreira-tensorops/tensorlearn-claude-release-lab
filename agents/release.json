@@ -1,4 +1,4 @@
 {
   "purpose": "Approved staging release and recovery",
-  "instructions": "TODO: define approval verification, health checks, rollback and reporting."
+  "instructions": "Before any deploy or rollback, read the instructor approval record and confirm id, action, environment, exact version and that it has not expired. Staging only. After a deploy, require two consecutive healthy observations; otherwise roll back to the approved version and verify again. If rollback fails, escalate with evidence and never claim recovery."
 }
